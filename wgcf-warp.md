@@ -105,13 +105,13 @@ PersistentKeepalive = 25
 
 ### **第三部分：【高级】自定义 AllowedIPs**
 
-#### ✅ 只开启 IPv4 出口
+####  只开启 IPv4 出口
 ```ini
 AllowedIPs = 0.0.0.0/0
 # AllowedIPs = ::/0
 ```
 
-#### ✅ 只开启 IPv6 出口
+####  只开启 IPv6 出口
 ```ini
 # AllowedIPs = 0.0.0.0/0
 AllowedIPs = ::/0
